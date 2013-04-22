@@ -1,0 +1,39 @@
+html {
+  background: url(../img/ledzep2.jpg) no-repeat right top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: Helvetica Neue, Helvetica, Arial;
+}
+
+.panel {
+  background: #FFF;
+  border-radius: 20px;
+  left: 7%;
+  padding: 15px;
+  position: absolute;
+  top: 7%;
+}
+
+h1 {
+  font-family: "Lucida Grande", Arial;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+p {
+    font-family: "Lucida Grande", Arial;
+    font-size: 14px;
+}
+
+.chart {
+    font-family: "Lucida Grande", Arial;
+    font-weight: bold;
+    font-size: 10px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 32px;
+    left:510px;
+}

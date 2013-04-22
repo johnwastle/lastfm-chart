@@ -1,0 +1,10 @@
+{ "name": "last.fm-album"
+, "version": "0.0.1"
+, "dependencies":
+  { "connect": ""
+  , "cloudfoundry": ""
+  , "request": ""
+  , "artisan-delegator": ""
+  , "hogan.js": ""
+  }
+}

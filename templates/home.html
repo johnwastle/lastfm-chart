@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Last.fm album chart</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+
+  <body>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".chart").data("");
+
+                $.getJSON("http://ws.audioscrobbler.com/2.0/?format=json&method=user.gettopalbums&user=johnwastle&limit=100&period=1month&api_key=3b0c397650d6804f204708e08ed0b26b", function(data) {
+                    $.each(data.topalbums.album, function(i, album) {
+                        var chartEntry = album.playcount + " plays: " + album.artist.name + " - " + album.name;
+                        $(".chart").append(chartEntry + "<br/>");
+                    });
+                });
+            });
+        });
+
+    </script>
+
+
+    <div class="panel">
+      <h1>Last.fm album chart</h1>
+
+      <p>
+        Get my 1 month album chart from last.fm
+      </p>
+
+      <button>Go!</button>
+
+    </div>
+    <div class="chart"></div>
+  </body>
+</html>
