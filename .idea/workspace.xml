@@ -7,7 +7,7 @@
     <file path="/main.css" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1366666712368" ignored="false" />
     <file path="/home.html" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1366666911095" ignored="false" />
     <file path="/Dummy.txt" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1366737982799" ignored="false" />
-    <file path="/README.md" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1366706621650" ignored="false" />
+    <file path="/README.md" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1366742396773" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/views.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.06711409">
+            <state line="4" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,10 +63,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+            <state line="7" column="48" selection-start="158" selection-end="158" vertical-scroll-proportion="0.11744966">
               <folding />
             </state>
           </provider>
@@ -138,9 +138,9 @@
         <option value="$PROJECT_DIR$/lib/templates.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/uri.map" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/manifest.yml" />
         <option value="$PROJECT_DIR$/lib/views.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -437,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="18" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
@@ -488,7 +481,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/views.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.06711409">
+        <state line="4" column="2" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="158" selection-end="158" vertical-scroll-proportion="0.11744966">
           <folding />
         </state>
       </provider>
