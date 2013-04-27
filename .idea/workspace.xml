@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" name="Default" comment="" />
+    <list default="true" id="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/assets/css/main.css" afterPath="$PROJECT_DIR$/static/assets/css/main.css" />
+    </list>
     <ignored path="dont-eat-there.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/main.css" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1366666712368" ignored="false" />
-    <file path="/home.html" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1366666911095" ignored="false" />
+    <file path="/home.html" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1367091436271" ignored="false" />
     <file path="/Dummy.txt" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1366737982799" ignored="false" />
     <file path="/README.md" changelist="5b3d59c8-6027-40f7-8d9f-66caccdd8c75" time="1366742485432" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,16 +42,16 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+            <state line="14" column="36" selection-start="376" selection-end="376" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="40" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
+            <state line="30" column="1" selection-start="519" selection-end="519" vertical-scroll-proportion="0.5033557">
               <folding />
             </state>
           </provider>
@@ -63,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="22" selection-start="225" selection-end="225" vertical-scroll-proportion="0.20134228">
+            <state line="12" column="22" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,15 +79,6 @@
         <entry file="file://$PROJECT_DIR$/manifest.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="19" selection-start="123" selection-end="123" vertical-scroll-proportion="-4.0384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="=" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/=">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -132,8 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/static/assets/css/main.css" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/lib/config.js" />
         <option value="$PROJECT_DIR$/lib/templates.js" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -141,6 +133,8 @@
         <option value="$PROJECT_DIR$/manifest.yml" />
         <option value="$PROJECT_DIR$/lib/views.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/static/assets/css/main.css" />
       </list>
     </option>
   </component>
@@ -416,20 +410,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="40" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="23" selection-start="509" selection-end="509" vertical-scroll-proportion="0.0">
@@ -488,7 +468,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="225" selection-end="225" vertical-scroll-proportion="0.20134228">
+        <state line="12" column="22" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="376" selection-end="376" vertical-scroll-proportion="-8.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="1" selection-start="519" selection-end="519" vertical-scroll-proportion="0.5033557">
           <folding />
         </state>
       </provider>
